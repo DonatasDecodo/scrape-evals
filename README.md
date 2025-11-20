@@ -99,7 +99,7 @@ python run_all.py \
 
 ## Metrics
 
-- **Coverage (Success Rate)**: true when HTTP 2xx/3xx, non-empty content with `content_size>0`, and not a known block page (e.g., Cloudflare). Empty `truth_text`/`lie_text` rows force `reachable=false`.
+- **Coverage (Success Rate)**: true when HTTP 2xx/3xx, non-empty content with `content_size>0`, and not a known block page (e.g., Cloudflare). Empty `truth_text`/`lie_text` rows force `success=false`.
 - **Snippet quality metrics** (evaluated on the best local window with length ≈ `truth_text`):
   - `recall`: fraction of core tokens found
   - `precision`: fraction of window tokens that are core
