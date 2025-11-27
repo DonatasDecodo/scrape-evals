@@ -8,6 +8,9 @@ class ScrapeResult(TypedDict, total=False):
         # Crawl4AIs
         "crawl4ai_scraper",
 
+        # Decodo
+        "decodo_api",
+
         # Firecrawl
         "firecrawl_api",
 

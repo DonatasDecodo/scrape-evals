@@ -1,6 +1,7 @@
 python-dotenv 
 typer
 requests
+httpx
 pandas
 firecrawl
 scrapingbee
